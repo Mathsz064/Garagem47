@@ -1,0 +1,171 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'House';
+    src: url(fonts/fonnts.com-House_of_cards_W03_Bold.ttf);
+    
+}
+body{background-color: rgb(255, 115, 0);
+     margin: 0px;
+     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;}
+header{background-color: black;
+padding-bottom: 10px;}
+
+ img{margin: auto;
+     text-align: center;
+     display: block;}
+ a{ color: rgb(255, 175, 0) ;
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    font-family: 'House';
+    text-shadow: 3px 3px 11px rgb(201, 27, 27);}
+a:hover{ text-decoration: underline; 
+        color: rgb(255, 115, 0);
+        text-shadow: 7px 8px 16px rgb(201, 27, 27);}
+
+
+
+main{ min-width: 320px;
+        max-width: 1400px;
+        margin-top: -27px;
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: gray;
+        text-align: justify;
+        box-shadow: 0px 0px 40px black;
+        
+    }
+main > p{padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 21px;
+        font-family: "Fira Sans", sans-serif;}
+main > h1 {padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 20px;
+        font-size: 40px;
+        font-family: 'House';
+        text-shadow: 3px 3px 11px rgb(201, 27, 27);
+        color:rgb(255, 140, 0) ;}
+main > h2{padding-left: 15px;
+        padding-right: 10px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 40px;
+        font-family: 'House';
+        text-shadow: 3px 3px 11px rgb(201, 27, 27);
+        color:rgb(255, 140, 0) ;}
+
+section {padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: gray;
+     font-family: "Fira Sans", sans-serif;
+    box-shadow: inset 5px 5px 30px 8px black; }
+
+section#imagem1{ background-image: url(imagenspg2/WhatsApp\ Image\ 2026-01-25\ at\ 18.54.23.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+section#imagem2{ background-image: url(imagens/WhatsApp\ Image\ 2026-01-24\ at\ 19.11.54.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+.fundo {color: white;
+        font-weight: bolder;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.349);
+        display: inline-block;
+        padding: 25px;
+        margin-right: 20px;
+        margin-left: 20px;}
+
+
+div{height: 280px;
+    width: 260px;
+    display: inline-block;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 22vw;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    }
+div > p {
+        margin-top: 35px;
+        margin-right: auto;
+        margin-bottom: 30px ;
+        margin-left: auto;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 29px;
+        font-family: 'House';
+        color: rgb(0, 0, 0);
+        }
+div > img { margin-top: 55px; 
+        margin-bottom: 30px;}
+
+     footer{background-color: rgb(0, 0, 0);
+            
+         padding: 1px;
+        margin: 0px;}
+    p#final{ font-weight: bolder;
+        color: lightgrey; 
+            font-weight: bolder;
+            text-align: center;
+         font-family: "Special Gothic Condensed One", sans-serif;;}
+
+
+
+
+
+a#voltar{ font-size: 55px;
+        color: black;
+        font-weight: bolder;
+        text-shadow: none;}
+a#voltar:hover{ text-decoration: none;
+        font-weight: 900;
+        font-size: 64px;}
+
+article{ display: inline-block;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 1.5vw;;
+        margin-bottom: 20px; ;
+        margin-left: 3.5vw;
+        box-shadow: 1px 1px 20px black; 
+        }
+
+article > img { height: 230px;
+        width: 430px;
+       }
+#meio{ font-size: 3em;}
+.h2{ color: rgb(255, 115, 0) ;}
+.h3{padding-left: 15px;
+        padding-right: 10px;
+        padding-top: 20px;
+        font-size: 1.8em;
+        font-family: 'House';
+        color:rgb(0, 0, 0) ;
+        font-weight: bolder;
+        text-align: center; }
