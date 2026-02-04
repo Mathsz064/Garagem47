@@ -75,14 +75,14 @@ section {padding-top: 20vh;
     box-shadow: inset 5px 5px 30px 8px black; }
 
 section#imagem1{ background-image: url(imagenspg2/WhatsApp\ Image\ 2026-01-25\ at\ 18.54.23.jpeg);
-        background-position: center center;
+        background-position: right bottom;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
 }
 
 section#imagem2{ background-image: url(imagens/WhatsApp\ Image\ 2026-01-24\ at\ 19.11.54.jpeg);
-        background-position: center center;
+        background-position: right bottom;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
